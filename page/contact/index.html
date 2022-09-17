@@ -57,9 +57,9 @@
     "name" : "UC RPA"
   },
   "headline": "Contact",
-  "description" : "",
+  "description" : "‎\nPowered by Formspree\r",
   "inLanguage" : "en",
-  "wordCount":  0 ,
+  "wordCount":  4 ,
   "datePublished" : "0001-01-01T00:00:00",
   "dateModified" : "0001-01-01T00:00:00",
   "image" : "https:\/\/rpa.ucr.edu\/img\/logo-rpa2.jpg",
@@ -81,7 +81,7 @@
 <meta property="og:title" content="Contact" />
 <meta property="og:description" content="An Association Run by Postdocs for Postdocs">
 <meta property="og:image" content="https://rpa.ucr.edu/img/logo-rpa2.jpg" />
-<meta property="og:url" content="https://jsacerot.github.io/page/contact/" />
+<meta property="og:url" content="https://rpa.ucr.edu/page/contact/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="UC RPA" />
 
@@ -118,12 +118,6 @@
       <ul class="nav navbar-nav navbar-right">
         
           
-            <li>
-              <a title="News" href="/">News</a>
-            </li>
-          
-        
-          
             <li class="navlinks-container">
               <a class="navlinks-parent">About</a>
               <div class="navlinks-children">
@@ -156,9 +150,9 @@
               <a class="navlinks-parent">Events</a>
               <div class="navlinks-children">
                 
-                  <a href="/">Symposium</a>
+                  <a href="/page/calendar">Calendar</a>
                 
-                  <a href="/">Calendar</a>
+                  <a href="/page/symposium">Symposium</a>
                 
               </div>
             </li>
@@ -259,7 +253,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="form-heading">
+            <div class="page-heading">
               
                 <h1>Contact</h1>
               
@@ -268,7 +262,7 @@
               
               
                 
-                  <h2 class="form-subheading">An Association Run by Postdocs for Postdocs</h2>
+                  <span class="page-subheading">An Association Run by Postdocs for Postdocs</span>
                 
               
               
@@ -282,38 +276,104 @@
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <article role="main" class="blog-post">
-          
-          
-          
-            <form name="contact-submission" action="https://formspree.io/f/mnqrjlrj" method="post" accept-charset="utf-8">
-  <fieldset id="contact-inputs">
-    <legend>Contact Form</legend>
-    
-    <input type="text" name="Name" id="name" placeholder="Name/organization" style="width: 50%; margin-bottom:10px" required>
-    
-    <input type="email" name="Email" id="email" placeholder="your@email.address " style="width: 50%; margin-bottom:10px" required>
-    
-    <input type="text" name="Subject" id="subject" placeholder="Message subject" style="width: 100%; margin-bottom:10px" required>
-    
-    <textarea rows="6" name="Message" id="message" placeholder="Thank you for contacting us. Please write your inquiries here.&#10;We will reply to you as soon as possible." style="width: 100%; margin-bottom:10px" required></textarea>
-  </fieldset>
-  <input type="submit" value="Send Message">
-  <small class="db dib-l ml4-l">Powered by <a href="https://formspree.io" target="_blank">Formspree</a></small>
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>‎</p>
+
+
+
+  <form 
+    action="https://formspree.io/f/mnqrjlrj"
+    method="post" 
+    accept-charset="utf-8">
+    <fieldset id="{{ .Title | lower }}-inputs">
+      <!-- <label for="name">Name</label> -->
+      <input type="text" name="Name" id="name" placeholder="Name/organization" style="width: 50%; margin-bottom:10px" required>
+      <!-- <label for="email">Email address</label> -->
+      <input type="email" name="Email" id="email" placeholder="your@email.address " style="width: 50%; margin-bottom:10px" required>
+      <!-- <label for="subject">Subject</label> -->
+      <input type="text" name="Subject" id="subject" placeholder="Message subject" style="width: 100%; margin-bottom:10px" required>
+      <!-- <label for="message">Message</label> -->
+      <textarea rows="6" name="Message" id="message" placeholder="Thank you for contacting us. Please write your inquiries here.&#10;We will reply to you as soon as possible." style="width: 100%; margin-bottom:10px" required></textarea>
+    </fieldset>
+    <input type="submit" value="Send Message">
+    <small class="db dib-l ml4-l">Powered by <a href="https://formspree.io" target="_blank">Formspree</a></small>
 </form>
 
-          
-        </article>
-      </div>
+
+
+
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
       
-    </div>
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2frpa.ucr.edu%2fpage%2fcontact%2f&amp;text=Contact&amp;via=UCRPostdocAssoc" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2frpa.ucr.edu%2fpage%2fcontact%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2frpa.ucr.edu%2fpage%2fcontact%2f&amp;title=Contact" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+  
+      
+    </ul>
   </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
 
       
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+    <div class="page-meta">
+  
+  
+  
+</div>
+
+
+  
 <footer>
   <div class="container">
     <div class="row">
