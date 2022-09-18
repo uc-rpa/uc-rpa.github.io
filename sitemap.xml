@@ -3,22 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://rpa.ucr.edu/</loc>
-    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url><url>
+    <loc>https://rpa.ucr.edu/tags/general-assembly/</loc>
+    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rpa.ucr.edu/post/2022-09-18-general-assembly/</loc>
+    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rpa.ucr.edu/post/2022-09-18-2022-postdoc-appreciation-week/</loc>
+    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rpa.ucr.edu/tags/postdoc-appreciation-week/</loc>
+    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rpa.ucr.edu/post/</loc>
+    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rpa.ucr.edu/tags/</loc>
+    <lastmod>2022-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rpa.ucr.edu/tags/botanic-gardens/</loc>
     <lastmod>2022-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rpa.ucr.edu/post/2022-09-07-botanic-gardens-tour/</loc>
-    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rpa.ucr.edu/tags/postdoc-appreciation-week/</loc>
-    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rpa.ucr.edu/post/</loc>
-    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rpa.ucr.edu/tags/</loc>
     <lastmod>2022-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rpa.ucr.edu/tags/tour/</loc>
@@ -42,9 +51,6 @@
     <loc>https://rpa.ucr.edu/post/2021-12-06-writing-workshop-dei/</loc>
     <lastmod>2021-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rpa.ucr.edu/about/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
-  </url><url>
     <loc>https://rpa.ucr.edu/page/history-mission/</loc>
   </url><url>
     <loc>https://rpa.ucr.edu/page/board/</loc>
@@ -54,6 +60,8 @@
     <loc>https://rpa.ucr.edu/page/contact/</loc>
   </url><url>
     <loc>https://rpa.ucr.edu/page/calendar/</loc>
+  </url><url>
+    <loc>https://rpa.ucr.edu/page/meetups/</loc>
   </url><url>
     <loc>https://rpa.ucr.edu/page/</loc>
   </url><url>
