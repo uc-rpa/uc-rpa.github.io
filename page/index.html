@@ -452,13 +452,13 @@ if (!doNotTrack) {
     accept-charset="utf-8">
     <fieldset id="{{ .Title | lower }}-inputs">
       <!-- <label for="name">Name</label> -->
-      <input type="text" name="Name" id="name" placeholder="Name/organization" style="width: 50%; margin-bottom:10px" required>
+      <input type="text" name="Name" id="name" placeholder="Name/organization" style="width: 100%; margin-bottom:10px" required>
       <!-- <label for="email">Email address</label> -->
-      <input type="email" name="Email" id="email" placeholder="your@email.address " style="width: 50%; margin-bottom:10px" required>
+      <input type="email" name="Email" id="email" placeholder="your@email.address " style="width: 100%; margin-bottom:10px" required>
       <!-- <label for="subject">Subject</label> -->
       <input type="text" name="Subject" id="subject" placeholder="Message subject" style="width: 100%; margin-bottom:10px" required>
       <!-- <label for="message">Message</label> -->
-      <textarea rows="6" name="Message" id="message" placeholder="Thank you for contacting us. Please write your inquiries here.&#10;We will reply to you as soon as possible." style="width: 100%; margin-bottom:10px" required></textarea>
+      <textarea rows="6" name="Message" id="message" placeholder="Thank you for contacting the UC Riverside Postdoctoral Association. Please write your inquiries here.&#10;We will reply to you as soon as possible." style="width: 100%; margin-bottom:10px" required></textarea>
     </fieldset>
     <input type="submit" value="Send Message">
     <small class="db dib-l ml4-l">Powered by <a href="https://formspree.io" target="_blank">Formspree</a></small>
@@ -809,28 +809,13 @@ The UC Riverside Postdoctoral Association holds an annual symposium featuring or
   
   <link rel="stylesheet" href="https://rpa.ucr.edu/css/hugo-easy-gallery.css" />
   <div class="box" >
-    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('https://rpa.ucr.edu/img/landmark.svg');">
-        <img itemprop="thumbnail" src="img/landmark.svg" alt="UCPath" />
-      </div>
-      <a href="http://internationalscholars.ucr.edu/about/contact.html" itemprop="contentUrl"></a>
-        <figcaption>
-            <p>UCPath</p>
-        </figcaption>
-    </figure>
-  </div>
-
-  
-  
-  
-  <div class="box" >
-    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <div class="img" style="background-image: url('https://rpa.ucr.edu/img/graduation-cap.svg');">
-        <img itemprop="thumbnail" src="img/graduation-cap.svg" alt="Graduate Division" />
+    <figure class="no-photoswipe" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('https://rpa.ucr.edu/img/circle-info.svg');">
+        <img itemprop="thumbnail" src="img/circle-info.svg" alt="Employment Info" />
       </div>
       <a href="https://graduate.ucr.edu/postdoctoral-studies/" itemprop="contentUrl"></a>
         <figcaption>
-            <p>Graduate Division</p>
+            <p>Employment Info</p>
         </figcaption>
     </figure>
   </div>
@@ -839,13 +824,58 @@ The UC Riverside Postdoctoral Association holds an annual symposium featuring or
   
   
   <div class="box" >
-    <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <figure class="no-photoswipe" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('https://rpa.ucr.edu/img/file-shield.svg');">
+        <img itemprop="thumbnail" src="img/file-shield.svg" alt="Postdoc Contract" />
+      </div>
+      <a href="https://uaw5810.org/postdoc-contract/" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>Postdoc Contract</p>
+        </figcaption>
+    </figure>
+  </div>
+
+  
+  
+  
+  <div class="box" >
+    <figure class="no-photoswipe" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
       <div class="img" style="background-image: url('https://rpa.ucr.edu/img/suitcase-medical.svg');">
         <img itemprop="thumbnail" src="img/suitcase-medical.svg" alt="Health Insurance" />
       </div>
       <a href="https://clients.garnett-powers.com/pd/uc/" itemprop="contentUrl"></a>
         <figcaption>
             <p>Health Insurance</p>
+        </figcaption>
+    </figure>
+  </div>
+
+  
+  
+  
+  <div class="box" >
+    <figure class="no-photoswipe" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('https://rpa.ucr.edu/img/hands-holding-circle.svg');">
+        <img itemprop="thumbnail" src="img/hands-holding-circle.svg" alt="The Union" />
+      </div>
+      <a href="https://uaw5810.org/" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>The Union</p>
+        </figcaption>
+    </figure>
+  </div>
+
+  
+  
+  
+  <div class="box" >
+    <figure class="no-photoswipe" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <div class="img" style="background-image: url('https://rpa.ucr.edu/img/landmark.svg');">
+        <img itemprop="thumbnail" src="img/landmark.svg" alt="UCPath" />
+      </div>
+      <a href="http://internationalscholars.ucr.edu/about/contact.html" itemprop="contentUrl"></a>
+        <figcaption>
+            <p>UCPath</p>
         </figcaption>
     </figure>
   </div>
@@ -892,10 +922,18 @@ The UC Riverside Postdoctoral Association holds an annual symposium featuring or
                 </a>
               </li>
               <li>
+                <a href="https://lists.ucr.edu/mailman/listinfo/rpa-postdoc" title="Mail list">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="far fa-address-book fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
                 <a href="https://www.facebook.com/UC-Riverside-Postdoctoral-Association-460810420930605" title="Facebook">
                   <span class="fa-stack fa-lg">
                     <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                   </span>
                 </a>
               </li>
