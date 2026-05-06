@@ -332,6 +332,15 @@ if (!doNotTrack) {
   <div class="row">
     <div class="col-xs-12">
 
+     <!-- ========================= -->
+<!-- SYMPOSIUM SPEAKERS (FIXED) -->
+<!-- ========================= -->
+
+<div class="container" role="main" style="max-width:1100px; margin:auto;">
+
+  <div class="row">
+    <div class="col-xs-12">
+
       <h2 style="text-align:center; font-weight:700; margin-top:50px;">
         Symposium Speakers
       </h2>
@@ -348,22 +357,42 @@ if (!doNotTrack) {
           <!-- Keynote 1 -->
           <div class="panel panel-default speaker-card keynote-card">
             <div class="panel-body text-center">
+
               <img src="/img/karthik.jpg" class="speaker-img">
 
               <h4>Dr. Karthikeyan Chandrasegaran</h4>
-              <p class="muted">UCR</p>
+
+              <p class="affil">Department of Entomology, UCR</p>
+
               <p class="role">Morning Keynote</p>
+
+              <a href="https://profiles.ucr.edu/app/home/profile/karthikc"
+                 target="_blank"
+                 style="display:inline-block; margin-top:8px;">
+                View Profile
+              </a>
+
             </div>
           </div>
 
           <!-- Keynote 2 -->
           <div class="panel panel-default speaker-card keynote-card">
             <div class="panel-body text-center">
+
               <img src="/img/elizabeth-rowen.jpg" class="speaker-img">
 
               <h4>Dr. Elizabeth Rowen</h4>
-              <p class="muted">UCR</p>
+
+              <p class="affil">Department of Entomology, UCR</p>
+
               <p class="role">Afternoon Keynote</p>
+
+              <a href="https://profiles.ucr.edu/app/home/profile/erowen"
+                 target="_blank"
+                 style="display:inline-block; margin-top:8px;">
+                View Profile
+              </a>
+
             </div>
           </div>
 
@@ -373,7 +402,7 @@ if (!doNotTrack) {
         <div class="col-md-6 col-sm-12">
 
           <h3 style="text-align:center; margin-bottom:10px;">
-            Panel Discussion
+            Panel Discussion Speakers
           </h3>
 
           <p style="text-align:center; color:#666; margin-bottom:25px;">
@@ -383,13 +412,29 @@ if (!doNotTrack) {
           <div class="row text-center">
 
             <div class="col-xs-6">
+
               <img src="/img/vlad-sirbu.jpg" class="panel-img">
+
               <h5>Dr. Vlad Sirbu</h5>
+
+              <a href="https://profiles.ucr.edu/app/home/profile/vsirb001"
+                 target="_blank">
+                View Profile
+              </a>
+
             </div>
 
             <div class="col-xs-6">
+
               <img src="/img/amancio-de-souza.jpg" class="panel-img">
+
               <h5>Dr. Amancio De Souza</h5>
+
+              <a href="https://profiles.ucr.edu/app/home/profile/amancio"
+                 target="_blank">
+                View Profile
+              </a>
+
             </div>
 
           </div>
@@ -403,20 +448,20 @@ if (!doNotTrack) {
 </div>
 
 <!-- ========================= -->
-<!-- STYLES (INCLUDED ONCE) -->
+<!-- STYLES -->
 <!-- ========================= -->
 
 <style>
 
-/* Centering fix */
+/* Center layout fix */
 .container {
   max-width: 1100px !important;
 }
 
-/* Card style */
+/* Card styling */
 .speaker-card {
   border-radius: 12px;
-  transition: all 0.25s ease;
+  transition: 0.25s ease;
   margin-bottom: 20px;
 }
 
@@ -447,9 +492,10 @@ if (!doNotTrack) {
   margin-bottom: 8px;
 }
 
-/* Text styling */
-.muted {
+/* Text */
+.affil {
   color: #666;
+  margin-bottom: 5px;
 }
 
 .role {
