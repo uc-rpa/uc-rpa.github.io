@@ -323,131 +323,138 @@ if (!doNotTrack) {
 <div class="container">
   <div class="row">
 
-    <!-- LEFT: KEYNOTES -->
-    <div class="col-md-6 col-sm-12">
+ <!-- ========================= -->
+<!-- CLEAN SYMPOSIUM SPEAKER SECTION -->
+<!-- ========================= -->
 
-      <h2 style="margin-top:60px; margin-bottom:30px; text-align:center; font-weight:700;">
-        Keynote Speakers
+<div class="container" role="main" style="max-width:1100px; margin:auto;">
+
+  <div class="row">
+    <div class="col-xs-12">
+
+      <h2 style="text-align:center; font-weight:700; margin-top:50px;">
+        Symposium Speakers
       </h2>
 
-      <!-- Keynote 1 -->
-      <div class="panel panel-default speaker-card keynote-card">
-        <div class="panel-body text-center">
-          <img src="/img/karthik.jpg" class="img-responsive center-block speaker-img-large">
-          <h3 class="speaker-name">Dr. Karthikeyan Chandrasegaran</h3>
-          <p class="speaker-affiliation">Department of Entomology, UCR</p>
-          <p class="speaker-role keynote-role">Morning Keynote Session</p>
-        </div>
-      </div>
+      <div class="row" style="margin-top:30px;">
 
-      <!-- Keynote 2 -->
-      <div class="panel panel-default speaker-card keynote-card">
-        <div class="panel-body text-center">
-          <img src="/img/elizabeth-rowen.jpg" class="img-responsive center-block speaker-img-large">
-          <h3 class="speaker-name">Dr. Elizabeth Rowen</h3>
-          <p class="speaker-affiliation">Department of Entomology, UCR</p>
-          <p class="speaker-role keynote-role">Afternoon Keynote Session</p>
+        <!-- ================= KEYNOTES ================= -->
+        <div class="col-md-6 col-sm-12">
+
+          <h3 style="text-align:center; margin-bottom:25px;">
+            Keynote Speakers
+          </h3>
+
+          <!-- Keynote 1 -->
+          <div class="panel panel-default speaker-card keynote-card">
+            <div class="panel-body text-center">
+              <img src="/img/karthik.jpg" class="speaker-img">
+
+              <h4>Dr. Karthikeyan Chandrasegaran</h4>
+              <p class="muted">UCR</p>
+              <p class="role">Morning Keynote</p>
+            </div>
+          </div>
+
+          <!-- Keynote 2 -->
+          <div class="panel panel-default speaker-card keynote-card">
+            <div class="panel-body text-center">
+              <img src="/img/elizabeth-rowen.jpg" class="speaker-img">
+
+              <h4>Dr. Elizabeth Rowen</h4>
+              <p class="muted">UCR</p>
+              <p class="role">Afternoon Keynote</p>
+            </div>
+          </div>
+
         </div>
+
+        <!-- ================= PANELISTS ================= -->
+        <div class="col-md-6 col-sm-12">
+
+          <h3 style="text-align:center; margin-bottom:10px;">
+            Panel Discussion
+          </h3>
+
+          <p style="text-align:center; color:#666; margin-bottom:25px;">
+            Career paths in academia and industry
+          </p>
+
+          <div class="row text-center">
+
+            <div class="col-xs-6">
+              <img src="/img/vlad-sirbu.jpg" class="panel-img">
+              <h5>Dr. Vlad Sirbu</h5>
+            </div>
+
+            <div class="col-xs-6">
+              <img src="/img/amancio-de-souza.jpg" class="panel-img">
+              <h5>Dr. Amancio De Souza</h5>
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
 
     </div>
-
-    <!-- RIGHT: PANELISTS -->
-    <div class="col-md-6 col-sm-12">
-
-      <h2 style="margin-top:60px; margin-bottom:15px; text-align:center;">
-        Panel Discussion Speakers
-      </h2>
-
-      <p style="text-align:center; margin-bottom:35px; color:#555;">
-        Career paths in academia and industry
-      </p>
-
-      <div class="row text-center">
-
-        <div class="col-xs-6">
-          <div class="panel panel-default speaker-card">
-            <div class="panel-body">
-              <img src="/img/vlad-sirbu.jpg" class="img-responsive center-block speaker-img-small">
-              <h4 class="speaker-name">Dr. Vlad Sirbu</h4>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-6">
-          <div class="panel panel-default speaker-card">
-            <div class="panel-body">
-              <img src="/img/amancio-de-souza.jpg" class="img-responsive center-block speaker-img-small">
-              <h4 class="speaker-name">Dr. Amancio De Souza</h4>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
   </div>
 </div>
-
-  </div>
-</div>
-
 
 <!-- ========================= -->
-<!-- STYLES (ADD ONCE) -->
+<!-- STYLES (INCLUDED ONCE) -->
 <!-- ========================= -->
 
 <style>
 
-/* Card hover animation */
+/* Centering fix */
+.container {
+  max-width: 1100px !important;
+}
+
+/* Card style */
 .speaker-card {
-  transition: all 0.3s ease;
   border-radius: 12px;
+  transition: all 0.25s ease;
+  margin-bottom: 20px;
 }
 
 .speaker-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
 
-/* Keynote emphasis */
+/* Keynote highlight */
 .keynote-card {
   border: 2px solid #6c63ff;
 }
 
 /* Images */
-.speaker-img-large {
-  max-height: 260px;
-  border-radius: 12px;
-  margin-bottom: 15px;
-}
-
-.speaker-img-small {
-  max-height: 180px;
-  border-radius: 12px;
+.speaker-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
   margin-bottom: 12px;
 }
 
-/* Typography */
-.speaker-name {
-  margin-top: 10px;
-  font-weight: 600;
+.panel-img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 8px;
 }
 
-.speaker-affiliation {
+/* Text styling */
+.muted {
   color: #666;
-  font-size: 14px;
 }
 
-.speaker-role {
-  margin-top: 8px;
-  font-size: 14px;
-}
-
-.keynote-role {
-  font-weight: 600;
+.role {
   color: #6c63ff;
+  font-weight: 600;
 }
 
 </style>
